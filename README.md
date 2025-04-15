@@ -1,10 +1,11 @@
 # ML
 Machine Learning Transformers - Explanation
+<br>
 1️⃣ Introduction to ML Transformers
 In Machine Learning, transformers are tools that help modify or process data before training a model.
 🔹 They prepare data to improve accuracy.
 🔹 They convert raw data into a better format for the ML model.
-
+<br>
 For example:
 
 If the data has big and small numbers, transformers can scale them so they are balanced.
@@ -14,7 +15,7 @@ If there are text labels, transformers can convert them into numbers so that ML 
 2️⃣ Types of ML Transformers
 📌 Feature Scaling (Making Data Balanced)
 Some data has very big numbers (like 1000, 5000) and some have small numbers (like 0.5, 1.2). This can confuse ML models. Scaling helps fix this problem.
-
+<br>
 🚀 Types of Scaling Transformers:
 
 StandardScaler – Converts data so that it has mean = 0 and standard deviation = 1.
@@ -22,7 +23,7 @@ StandardScaler – Converts data so that it has mean = 0 and standard deviation 
 MinMaxScaler – Converts all values between 0 and 1.
 
 RobustScaler – Useful when data has outliers (extreme values).
-
+<br>
 📌 Power Transformation (Making Data Normal)
 Sometimes, data is not normal (it has too many extreme values). Power Transformers convert data into a normal distribution, which helps ML models perform better.
 
@@ -31,7 +32,7 @@ Sometimes, data is not normal (it has too many extreme values). Power Transforme
 Box-Cox Transformation – Works for positive values.
 
 Yeo-Johnson Transformation – Works for both positive and negative values.
-
+<br>
 🔹 Why is this useful? Some ML models (like Linear Regression) work best with normal data.
 
 📌 Encoding (Converting Text into Numbers)
